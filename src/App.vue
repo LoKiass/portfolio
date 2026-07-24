@@ -1,10 +1,12 @@
 <script setup>
-import HeaderApp from "@/components/HeaderApp.vue";
 import Navbar from "@/components/Navbar.vue";
+import Header from "@/components/Header.vue";
 </script>
 
 <template>
-  <Navbar />
+  <Navbar /> <!-- Navbar component -->
+  <Header /> <!-- Header component -->
+
 </template>
 
 <style scoped>
