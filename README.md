@@ -19,11 +19,11 @@ Ce portfolio me sert de vitrine pour présenter mes projets personnels, académi
 
 ##  Projets Mis en Avant
 
-| Projet | Description | Tech Stacks |
-| :--- | :--- | :--- |
-| **ProjetTicketIT** | Application web de gestion de tickets d'assistance basée sur une architecture MVC sur mesure. | PHP, MySQL, CSS |
-| **Portfolio** | Application web front-end utilisant la framework Vue.js, reprenant aussi la conception d'un site web avec maquettes | Vue.js, JavaScript, TailWindCss 
-| **Airsoft Pro-Shop** | Conception & maquettage d'une plateforme e-commerce dédiée aux équipements d'airsoft. | Web, UI/UX |
+| Projet               | Description                                                                                                         | Tech Stacks                     |
+|:---------------------|:--------------------------------------------------------------------------------------------------------------------|:--------------------------------|
+| **ProjetTicketIT**   | Applicatio[package.json](package.json)n web de gestion de tickets d'assistance basée sur une architecture MVC sur mesure.                       | PHP, MySQL, CSS                 |
+| **Portfolio**        | Application web front-end utilisant la framework Vue.js, reprenant aussi la conception d'un site web avec maquettes | Vue.js, JavaScript, TailWindCss |
+| **Airsoft Pro-Shop** | Conception & maquettage d'une plateforme e-commerce dédiée aux équipements d'airsoft.                               | Web, UI/UX                      |
 
 ## Objectif du portfolio
 
