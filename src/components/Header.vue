@@ -4,7 +4,7 @@
 
 
 <template>
-  <div class="min-h-screen flex flex-col items-center text-center gap-6 p-15">
+  <div class="flex flex-col items-center text-center gap-6 p-15">
     <h1 class="text-white text-6xl md:text-8xl font-bold">MATTÉO DISEURS</h1>
     <p class="text-gray-400 text-xl md:text-2xl">
       Développeur Logiciel & Web | Passionné Open source
