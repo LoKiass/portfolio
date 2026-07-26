@@ -1,0 +1,60 @@
+<!-- TechStack.vue (Parent) -->
+<script setup>
+import TechCard from './TechCard.vue'
+
+// Données structurées par catégorie
+const categories = [
+  {
+    name: "Frontend",
+    technos: [
+      { name: "HTML", image: "/images/html-5.png" },
+      { name: "CSS", image: "/images/css-3.png" },
+      { name: "Vue.js", image: "/images/vue.png" },
+      { name: "JavaScript", image: "/images/js.png" },
+      { name: "Tailwind CSS", image: "/images/tailwind.png" },
+      { name: "Twig", image: "/images/twig.png" }
+    ]
+  },
+  {
+    name: "Backend",
+    technos: [
+      { name: "Node.js", image: "/images/nodejs.png" },
+      { name: "PHP", image: "/images/php.png" },
+      { name: "C#", image: "/images/c-sharp.png" }
+    ]
+  },
+  {
+    name: "Database",
+    technos: [
+      { name: "MySQL", image: "/images/mysql.png" },
+      { name: "PSQL", image: "/images/postgre.png" }
+    ]
+  },
+  {
+    name: "DevOps & Tools",
+    technos: [
+      { name: "PowerShell", image: "/images/terminal.png" },
+      { name: "Git", image: "/images/git.png" },
+      { name: "Linux", image: "/images/linux-platform.png" }
+    ]
+  }
+];
+</script>
+
+<template>
+  <div class="tech-stack my-10 px-4 md:px-8 max-w-7xl m-10">
+    <h2 class="bg-linear-to-r from-cyan-500 via-cyan-800 to-cyan-900 bg-clip-text text-transparent text-2xl md:text-4xl font-bold mb-8">
+      Tech Stack
+    </h2>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+      <div v-for="category in categories" :key="category.name" class="category p-6 rounded-2xl bg-slate-900/40 border border-slate-800/80 backdrop-blur-sm">
+        <h3 class="text-white text-lg md:text-xl font-semibold mb-4 border-b border-slate-800 pb-2">
+          {{ category.name }}
+        </h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <TechCard v-for="tech in category.technos" :key="tech.name" :name="tech.name" :image="tech.image" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
