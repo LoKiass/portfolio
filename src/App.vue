@@ -1,8 +1,8 @@
 <script setup>
-import Navbar from "@/components/Navbar.vue";
-import Header from "@/components/Header.vue";
-import About from "@/components/About.vue";
-import TechStack from "@/components/stack/TechStack.vue";
+import Navbar from "@/components/navbar/NavbarSection.vue";
+import Header from "@/components/header/HeaderSection.vue";
+import About from "@/components/about/AboutSection.vue";
+import TechStack from "@/components/stack/TechStackSection.vue";
 </script>
 
 <template>
