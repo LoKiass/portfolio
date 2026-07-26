@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/NavbarSection.vue";
 import Header from "@/components/header/HeaderSection.vue";
 import About from "@/components/about/AboutSection.vue";
 import TechStack from "@/components/stack/TechStackSection.vue";
+import ProjectSection from "@/components/project/ProjectSection.vue";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import TechStack from "@/components/stack/TechStackSection.vue";
   <Header /> <!-- Header component -->
   <About /> <!-- About component -->
   <TechStack /> <!-- TechStack component -->
+  <ProjectSection /> <!-- ProjectSection component -->
 </template>
 
 <style scoped>
