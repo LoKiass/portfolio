@@ -9,7 +9,7 @@
         À Propos
       </h2>
     <p class="text-white md:text-xl py-2 max-w-3xl">
-      Je suis Mattéo Diseurs, étudiant en dévellopement informatique et passionné par la programmation système, le web et l'écosystème Open Source
+      Je suis Mattéo Diseurs, étudiant en développement informatique et passionné par la programmation système, le web et l'écosystème Open Source
     </p>
     <p class="text-white md:text-xl py-2 max-w-3xl">
       Ce portfolio me sert de vitrine pour présenter mes projets personels, académiques et mes expérimentation technique (C#, PHP, JavaScript, Web, Linux).

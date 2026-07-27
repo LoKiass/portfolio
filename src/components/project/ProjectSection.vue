@@ -21,7 +21,7 @@ const projects = [
   {
     title: 'Projet TicketMaster',
     description: 'Un système de ticket pour gérer les demandes de support, avec une interface utilisateur simple utilisant Twig, Boostrap, php & MySQl.',
-    image: img('ticketsystem.png'),
+    image: img('TicketSystem.png'),
     type: 'Web Development / Database Design',
     link: 'https://github.com/LoKiass/ProjetTicketIT',
   },

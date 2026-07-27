@@ -43,7 +43,6 @@ const categories = [
 </script>
 
 <template>
-  <h1 class="text-white text-6xl md:text-8xl font-bold text-center mb-10">Tech Stack</h1>
   <div class="tech-stack my-10 px-4 md:px-8 max-w-7xl m-10">
     <h2 class="bg-linear-to-r from-cyan-500 via-cyan-800 to-cyan-900 bg-clip-text text-transparent text-2xl md:text-4xl font-bold mb-8">
       Tech Stack
