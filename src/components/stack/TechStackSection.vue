@@ -2,39 +2,41 @@
 <script setup>
 import TechCard from './TechCard.vue'
 
+const img = (path) => `${import.meta.env.BASE_URL}images/${path}`
+
 const categories = [
   {
     name: "Frontend",
     technos: [
-      { name: "HTML", image: "/images/html-5.png" },
-      { name: "CSS", image: "/images/css-3.png" },
-      { name: "Vue.js", image: "/images/vue.png" },
-      { name: "JavaScript", image: "/images/js.png" },
-      { name: "Tailwind CSS", image: "/images/tailwind.png" },
-      { name: "Twig", image: "/images/twig.png" }
+      { name: "HTML", image: img("html-5.png") },
+      { name: "CSS", image: img("css-3.png") },
+      { name: "Vue.js", image: img("vue.png") },
+      { name: "JavaScript", image: img("js.png") },
+      { name: "Tailwind CSS", image: img("tailwind.png") },
+      { name: "Twig", image: img("twig.png") }
     ]
   },
   {
     name: "Backend",
     technos: [
-      { name: "Node.js", image: "/images/nodejs.png" },
-      { name: "PHP", image: "/images/php.png" },
-      { name: "C#", image: "/images/c-sharp.png" }
+      { name: "Node.js", image: img("nodejs.png") },
+      { name: "PHP", image: img("php.png") },
+      { name: "C#", image: img("c-sharp.png") }
     ]
   },
   {
     name: "Database",
     technos: [
-      { name: "MySQL", image: "./public/images/mysql.png" },
-      { name: "PSQL", image: "/images/postgre.png" }
+      { name: "MySQL", image: img("mysql.png") },
+      { name: "PSQL", image: img("postgre.png") }
     ]
   },
   {
     name: "DevOps & Tools",
     technos: [
-      { name: "PowerShell", image: "/images/terminal.png" },
-      { name: "Git", image: "/images/git.png" },
-      { name: "Linux", image: "/images/linux-platform.png" }
+      { name: "PowerShell", image: img("terminal.png") },
+      { name: "Git", image: img("git.png") },
+      { name: "Linux", image: img("linux-platform.png") }
     ]
   }
 ];
