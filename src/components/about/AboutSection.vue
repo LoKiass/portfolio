@@ -16,7 +16,7 @@
       <p class="text-white text-base md:text-lg max-w-2xl leading-relaxed">
         Ce portfolio me sert de vitrine pour présenter mes projets personnels, académiques et mes expérimentations techniques (C#, PHP, JavaScript, Web, Linux).
       </p>
-      
+      git branch -f master HEAD
       <p class="text-white text-base md:text-lg max-w-2xl leading-relaxed">
         Je suis toujours à la recherche de nouvelles opportunités pour apprendre et collaborer sur des projets passionnants. N'hésitez pas à me contacter si vous souhaitez en savoir plus sur mon travail ou discuter de potentielles collaborations.
       </p>

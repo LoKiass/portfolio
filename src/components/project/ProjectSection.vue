@@ -9,7 +9,7 @@ const projects = [
     description: 'Mon portfolio personnel pour présenter mes projets et compétences.',
     image: img('portfolio.png'),
     type: 'Web Development',
-    link: 'https://github.com/matteodiseurs/portfolio'
+    link: 'https://github.com/LoKiass/portfolio'
   },
   {
     title: 'Airsoft Pro Shop',
