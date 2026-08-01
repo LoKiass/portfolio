@@ -37,10 +37,11 @@ const projects = [
 
 <template>
   <section class="project-section py-12">
-    <div class="container px-4 mx-15">
-          <h2 class="bg-linear-to-r from-cyan-500 via-cyan-800 to-cyan-900 bg-clip-text text-transparent text-2xl md:text-4xl font-bold mb-8">
-Projets</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="container px-4 mx-auto">
+      <h2 class="bg-linear-to-r from-cyan-500 via-cyan-800 to-cyan-900 bg-clip-text text-transparent text-2xl md:text-4xl font-bold mb-8">
+        Projets
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
         <ProjectCard
           v-for="(project, index) in projects"        
         :key="index"
