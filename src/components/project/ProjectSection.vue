@@ -29,7 +29,7 @@ const projects = [
     title: 'Examen Administration & Gestion de Base de Données Avancée',
     description: 'Un projet d\'examen pour la création d\'une base de données avancée, avec des requêtes SQL complexes et des relations entre les tables.',
     image: img('examendb.png'),
-    type: 'Database Design',
+    type: 'Database Designs',
     link: 'https://github.com/LoKiass/EAFCSUDLUX2025-2026_EXAMENDB'
   }
 ]
