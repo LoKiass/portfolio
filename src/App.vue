@@ -5,6 +5,7 @@ import About from "@/components/about/AboutSection.vue";
 import TechStack from "@/components/stack/TechStackSection.vue";
 import ProjectSection from "@/components/project/ProjectSection.vue";
 import FooterSection from "./components/footer/FooterSection.vue";
+import ContactSection from "./components/contact/ContactSection.vue";
 </script>
 
 <template>
@@ -13,7 +14,8 @@ import FooterSection from "./components/footer/FooterSection.vue";
   <About /> <!-- About component -->
   <TechStack /> <!-- TechStack component -->
   <ProjectSection /> <!-- ProjectSection component -->
-  <FooterSection/>
+  <ContactSection />
+  <FooterSection/> <!-- FooterSection component -->
 </template>
 
 <style scoped>
