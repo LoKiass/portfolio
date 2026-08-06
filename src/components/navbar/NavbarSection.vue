@@ -1,9 +1,8 @@
 <script setup>
-
 </script>
 
 <template>
-  <nav class="p-4 shadow-md border-b border-gray-700">
+  <nav class="p-4 shadow-md border-b border-gray-700 sticky top-0 z-50 bg-gray-900">
     <ul class="flex items-center gap-4 sm:gap-6 font-bold text-white">
       <li>
         <a href="#About" class="transition">
@@ -20,6 +19,9 @@
       </li>
       <li class="text-sm sm:text-base">
         <a href="#Projects" class="hover:text-cyan-400 transition">Projets</a>
+      </li>
+      <li class="text-sm sm:text-base">
+        <a href="#Contact" class="hover:text-cyan-400 transition">Contact</a>
       </li>
       <li class="flex items-center">
         <a href="https://github.com/LoKiass" target="_blank" rel="noopener noreferrer">
