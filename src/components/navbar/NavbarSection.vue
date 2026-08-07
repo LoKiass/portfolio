@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <nav class="p-4 shadow-md border-b border-gray-700 sticky top-0 z-50 bg-gray-900">
+  <nav class="p-4 shadow-md border-b border-gray-700 sticky top-0 z-50 backdrop-blur-sm bg-slate-900/40">
     <ul class="flex items-center gap-4 sm:gap-6 font-bold text-white">
       <li>
         <a href="#About" class="transition">
